@@ -2,7 +2,6 @@
 
 Parallel 2D Laplace solver implemented using **MPI** and **OpenMP** on the **NUST RCMS Supercomputer**. The project benchmarks distributed memory vs shared memory parallelism using the Jacobi iterative method on a 2D heat diffusion problem, with full performance analysis, graphs, and correctness verification.
 
----
 
 ## Problem Statement
 
@@ -19,7 +18,6 @@ Boundary conditions:
 
 Solved iteratively using the **Jacobi method** until convergence (max delta < 1e-4) or a maximum epoch limit is reached.
 
----
 
 ## Tools and Technologies
 
@@ -36,8 +34,6 @@ Solved iteratively using the **Jacobi method** until convergence (max delta < 1e
 | **MPI_Sendrecv** | Ghost row exchange between MPI processes |
 | **MPI_Allreduce** | Global convergence check across all processes |
 | **MPI_Gatherv** | Collecting distributed results to rank 0 |
-
----
 
 ## Project Structure
 
@@ -72,7 +68,6 @@ Project/
 | Compute Nodes | compute-0-0 to compute-0-28 (29 nodes) |
 | Offline Nodes | 7, 14, 15, 20, 25, 29, 30 |
 
----
 
 ## License
 
