@@ -1,5 +1,6 @@
 <img width="1988" height="590" alt="banner" src="https://github.com/user-attachments/assets/9d21b3f5-78f2-4442-82cd-43711e036f7b" />
 
+
 Parallel 2D Laplace solver implemented using **MPI** and **OpenMP** on the **NUST RCMS Supercomputer**. The project benchmarks distributed memory vs shared memory parallelism using the Jacobi iterative method on a 2D heat diffusion problem, with full performance analysis, graphs, and correctness verification.
 
 
