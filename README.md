@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:050e1f,50:0a2540,100:00c4cc&height=200&section=header&text=Laplace%20Solver%20on%20Supercomputer&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=MPI%20%26%20OpenMP%20%C2%B7%20AMD%20EPYC%207452%20%C2%B7%20128%20CPUs%20%C2%B7%20NUST%20RCMS&descAlignY=58&descSize=14&descColor=94a3b8&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:050e1f,50:0a2540,100:00c4cc&height=200&section=header&text=Laplace%20Solver%20on%20Supercomputer&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=MPI%20and%20OpenMP%20-%20AMD%20EPYC%207452%20-%20128%20CPUs%20-%20NUST%20RCMS&descAlignY=58&descSize=14&descColor=94a3b8&animation=fadeIn)
 
 ![Project Status](https://img.shields.io/badge/status-DONE-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Supercomputer-blue.svg)
