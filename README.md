@@ -7,8 +7,6 @@
 ![Build](https://img.shields.io/badge/build-CMake-064F8C.svg)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
----
-
 ## Project Structure
 
 ```
@@ -30,8 +28,6 @@ HPC_Project/
 │
 └── run_all.sh
 ```
-
----
 
 ## Results Preview
 
@@ -59,7 +55,6 @@ HPC_Project/
 <!-- SCREENSHOT: ![Cluster Map](screenshots/cluster_map.png) -->
 > Cluster node availability screenshot goes here
 
----
 
 ## Step-by-Step Execution Guide
 
@@ -83,7 +78,6 @@ rsync -avz --progress -e "ssh -p 22 -oHostKeyAlgorithms=+ssh-rsa" . awais.seecs@
 
 > Enter your HPC password when prompted.
 
----
 
 ### Phase 2: Log Into the HPC
 
@@ -137,7 +131,6 @@ ls
 
 You should see `laplace_mpi`, `laplace_omp`, and `laplace_serial` listed.
 
----
 
 ### Phase 3: Set Up the Results Folder
 
@@ -166,7 +159,6 @@ ls -lh ~/Project/part2/results/
 
 Expected files: `benchmark.py` `laplace_mpi` `laplace_omp` `laplace_serial` `verify_correctness.py`
 
----
 
 ### Phase 4: Initial Test Run (Small Grid)
 
@@ -189,8 +181,6 @@ Expected output for each comparison:
 ```
 RESULT: PASS - outputs match within tolerance.
 ```
-
----
 
 ### Phase 5: Full Benchmark
 
@@ -233,8 +223,6 @@ mpirun -n 4 ./laplace_mpi 512 5000 1e-4
 ./laplace_omp 512 5000 1e-4 4
 ```
 
----
-
 ### Phase 6: Generate Graphs
 
 #### Step 6.1 — Print the CSV Contents
@@ -267,8 +255,6 @@ Graphs produced:
 | `efficiency.png` | Parallel efficiency percentage |
 | `bar_comparison.png` | Serial vs OpenMP vs MPI at N=256 |
 | `mpi_scaling.png` | MPI execution time per process count |
-
----
 
 ### Phase 7: Part I — Mapping the HPC Cluster
 
@@ -337,7 +323,6 @@ All solvers accept: `[N] [max_epochs] [tolerance]`
 | Bottom | 0 deg C (COLD) |
 | Left / Right | 0 deg C (Insulated) |
 
----
 
 ## Performance Results Summary
 
@@ -367,8 +352,6 @@ All solvers accept: `[N] [max_epochs] [tolerance]`
 | 256x256 | 1.895 | 0.538 | 1.253 | 3.52x |
 | 512x512 | 5.346 | 1.782 | 4.667 | 3.00x |
 
----
-
 ## Key Findings
 
 - **MPI** achieves 3.06x speedup at 8 processes with consistent scaling.
@@ -378,7 +361,6 @@ All solvers accept: `[N] [max_epochs] [tolerance]`
 - Primary MPI bottleneck is ghost row communication overhead at high process counts.
 - For N=512, more than 5000 epochs are needed for full convergence — consider SOR or multigrid.
 
----
 
 ## Output Files Reference
 
@@ -393,7 +375,6 @@ All solvers accept: `[N] [max_epochs] [tolerance]`
 | `omp_timing.csv` | Timing data for all OpenMP runs |
 | `serial_timing.csv` | Timing data for all serial runs |
 
----
 
 ## Important Notes
 
@@ -402,8 +383,6 @@ All solvers accept: `[N] [max_epochs] [tolerance]`
 - For grids N >= 512, set max_epochs to at least 5000.
 - Convergence gets slower as N increases (more cells to equilibrate).
 - Offline nodes from the cluster scan: `compute-0-7, 14, 15, 20, 25, 29, 30`.
-
----
 
 ## HPC System Info
 
