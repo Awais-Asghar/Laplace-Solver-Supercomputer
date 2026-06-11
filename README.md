@@ -1,4 +1,4 @@
-# HPC Laplace Solver: Supercomputer Performance Analysis
+# Laplace Solver on Supercomputer
 ![Project Status](https://img.shields.io/badge/status-DONE-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Supercomputer-blue.svg)
 ![CPU](https://img.shields.io/badge/CPU-AMD%20EPYC%207452-red.svg)
