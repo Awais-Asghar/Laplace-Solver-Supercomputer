@@ -39,31 +39,6 @@ HPC_Project/
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/aeee367b-04df-4c85-9a4b-411ec9449eca" />
 
-## Results Preview
-
-### MPI Scaling
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d9fed1d7-0daa-4a14-93a8-e60f506db071" />
-
-### OpenMP Scaling
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/31dc58a5-3c80-4fcb-87c6-6da6deaa427c" />
-
-### MPI vs OpenMP Head-to-Head
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1b2d289e-e274-4b12-a5c0-1a982879dbf0" />
-
-### Grid Size Scaling
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/15f82968-6cc6-4cab-b00f-512e75124171" />
-
-### Verification and Correctness
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/83da12e5-8803-4cb7-bd23-2f4e5b0c0dc3" />
-
-### Parallel Efficiency
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/cb8e54de-c857-4b34-a689-c5d946f6bcb6" />
-
-### Cluster Node Map
-<!-- SCREENSHOT: ![Cluster Map](screenshots/cluster_map.png) -->
-> Cluster node availability screenshot goes here
-
-
 ## Step-by-Step Execution Guide
 
 ### Phase 1: Upload the Project to HPC
@@ -327,6 +302,25 @@ All solvers accept: `[N] [max_epochs] [tolerance]`
 | Bottom | 0 deg C (COLD) |
 | Left / Right | 0 deg C (Insulated) |
 
+## Results
+
+### MPI Scaling
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d9fed1d7-0daa-4a14-93a8-e60f506db071" />
+
+### OpenMP Scaling
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/31dc58a5-3c80-4fcb-87c6-6da6deaa427c" />
+
+### MPI vs OpenMP Head-to-Head
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1b2d289e-e274-4b12-a5c0-1a982879dbf0" />
+
+### Grid Size Scaling
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/15f82968-6cc6-4cab-b00f-512e75124171" />
+
+### Verification and Correctness
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/83da12e5-8803-4cb7-bd23-2f4e5b0c0dc3" />
+
+### Parallel Efficiency
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/cb8e54de-c857-4b34-a689-c5d946f6bcb6" />
 
 ## Performance Results Summary
 
