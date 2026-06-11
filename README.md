@@ -1,11 +1,17 @@
 # HPC Laplace Solver: Supercomputer Performance Analysis
-![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
-![Platform](https://img.shields.io/badge/platform-NUST%20RCMS%20Supercomputer-blue.svg)
+![Project Status](https://img.shields.io/badge/status-DONE-brightgreen.svg)
+![Platform](https://img.shields.io/badge/platform-Supercomputer-blue.svg)
 ![CPU](https://img.shields.io/badge/CPU-AMD%20EPYC%207452-red.svg)
 ![MPI](https://img.shields.io/badge/Parallelism-MPI%20%7C%20OpenMP-orange.svg)
 ![Language](https://img.shields.io/badge/language-C%2B%2B-blue.svg)
 ![Build](https://img.shields.io/badge/build-CMake-064F8C.svg)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f4074a17-e80d-4a35-b063-cc557f044f3d" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/448265c3-58d0-4b5b-9cd4-d11c9e723086" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/adb591a0-398f-4b31-a816-758730d0cf50" />
 
 ## Project Structure
 
@@ -29,27 +35,29 @@ HPC_Project/
 └── run_all.sh
 ```
 
+## Methodology 
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/aeee367b-04df-4c85-9a4b-411ec9449eca" />
+
 ## Results Preview
 
 ### MPI Scaling
-<!-- SCREENSHOT: ![MPI Scaling](screenshots/mpi_scaling.png) -->
-> MPI scaling results screenshot goes here
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d9fed1d7-0daa-4a14-93a8-e60f506db071" />
 
 ### OpenMP Scaling
-<!-- SCREENSHOT: ![OpenMP Scaling](screenshots/omp_scaling.png) -->
-> OpenMP scaling results screenshot goes here
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/31dc58a5-3c80-4fcb-87c6-6da6deaa427c" />
 
 ### MPI vs OpenMP Head-to-Head
-<!-- SCREENSHOT: ![Speedup Comparison](screenshots/speedup_comparison.png) -->
-> Speedup comparison chart screenshot goes here
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1b2d289e-e274-4b12-a5c0-1a982879dbf0" />
 
 ### Grid Size Scaling
-<!-- SCREENSHOT: ![Grid Scaling](screenshots/grid_scaling.png) -->
-> Grid size scaling chart screenshot goes here
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/15f82968-6cc6-4cab-b00f-512e75124171" />
+
+### Verification and Correctness
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/83da12e5-8803-4cb7-bd23-2f4e5b0c0dc3" />
 
 ### Parallel Efficiency
-<!-- SCREENSHOT: ![Efficiency](screenshots/efficiency.png) -->
-> Parallel efficiency chart screenshot goes here
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/cb8e54de-c857-4b34-a689-c5d946f6bcb6" />
 
 ### Cluster Node Map
 <!-- SCREENSHOT: ![Cluster Map](screenshots/cluster_map.png) -->
@@ -358,6 +366,8 @@ All solvers accept: `[N] [max_epochs] [tolerance]`
 - For N=512, more than 5000 epochs are needed for full convergence — consider SOR or multigrid.
 
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8a54a2b9-237d-4363-9cac-869cf9344a40" />
+
 ## Output Files Reference
 
 | File | Description |
@@ -393,3 +403,6 @@ All solvers accept: `[N] [max_epochs] [tolerance]`
 | MPI Version | OpenMPI 3.1 |
 | OpenMP Version | 4.5 |
 | Compiler | GCC 8.5.0 |
+
+## Conclusion
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4715ff52-8ba7-49e5-b9b0-c4d153a7ce34" />
