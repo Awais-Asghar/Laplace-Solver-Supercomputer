@@ -1,7 +1,11 @@
-# HPC Project: Parallel Laplace Solver
-## Parallel and Distributed Processing - NUST SEECS
-
----
+# HPC Laplace Solver — Supercomputer Performance Analysis
+![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
+![Platform](https://img.shields.io/badge/platform-NUST%20RCMS%20Supercomputer-blue.svg)
+![CPU](https://img.shields.io/badge/CPU-AMD%20EPYC%207452-red.svg)
+![MPI](https://img.shields.io/badge/Parallelism-MPI%20%7C%20OpenMP-orange.svg)
+![Language](https://img.shields.io/badge/language-C%2B%2B-blue.svg)
+![Build](https://img.shields.io/badge/build-CMake-064F8C.svg)
+![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 ## Project Structure
 
