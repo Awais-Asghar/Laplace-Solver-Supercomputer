@@ -40,6 +40,8 @@ HPC_Project/
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/aeee367b-04df-4c85-9a4b-411ec9449eca" />
 
+<img width="975" height="463" alt="image" src="https://github.com/user-attachments/assets/20d43253-759c-4557-8c3f-f930700898b7" />
+
 ## Step-by-Step Execution Guide
 
 ### Phase 1: Upload the Project to HPC
